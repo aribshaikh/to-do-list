@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-
+//Add local storage functionalities
 function TodosComponent() {
     const [currentTodo, setCurrentTodo] = useState("");
     const [todos, setTodos] = useState([
